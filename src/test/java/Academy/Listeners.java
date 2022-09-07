@@ -29,6 +29,7 @@ public void onTestSuccess(ITestResult result) {
 	extent.attachReporter(report);
 	ExtentTest test = extent.createTest("name");
 	extent.flush();
+    System.out.println("inside the listeners");
 	
     
   }

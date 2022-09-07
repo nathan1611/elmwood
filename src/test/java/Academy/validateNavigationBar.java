@@ -46,7 +46,7 @@ public void initialize() throws IOException
 		//compare the text from the browser with actual text.- Error..
 	    Assert.assertTrue(l.getNavigationBar().isDisplayed());
 	    log.info("Navigation Bar is displayed");
-		 System.out.println("Test completed");
+		 System.out.println("Test completed without any error");
 	 //   Assert.assertFalse(false);
 		;
 	
