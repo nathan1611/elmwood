@@ -10,7 +10,7 @@ public class demo1 extends AppTest {
 	@Parameters({"hello"})
 	@Test
 	public void test4(String input) {
-		System.out.println("demo1 testsdfdsf11111"+input);
+		System.out.println("demo1 test11111"+input);	
 	}
 	@Test(dataProvider="getData")
 	public void test5(String data){
