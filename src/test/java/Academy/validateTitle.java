@@ -24,7 +24,7 @@ public class validateTitle extends base{
 	@BeforeTest
 	public void initialize() throws IOException
 	{
-	
+	System.out.println("merge the code into master");
 		 driver =initializeDriver();
 		 log.info("Driver is initialized");
 			
