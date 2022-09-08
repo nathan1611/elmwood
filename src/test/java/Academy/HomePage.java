@@ -58,6 +58,7 @@ public class HomePage extends base{
 	{
 		
 		driver.close();
+		System.out.println("merge into master");
 		System.out.println("commited");
 	
 		
