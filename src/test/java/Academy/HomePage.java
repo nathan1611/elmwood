@@ -56,7 +56,7 @@ public class HomePage extends base{
 	@AfterTest
 	public void teardown()
 	{
-		System.out.println("merge branch +++++");
+		
 		driver.close();
 		System.out.println("commited");
 	
